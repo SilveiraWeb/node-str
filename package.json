@@ -1,0 +1,29 @@
+{
+  "name": "node-str",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/server.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "dev": "nodemon ."
+  },
+  "keywords": [
+    "balta.io"
+  ],
+  "author": "Silveira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^2.6.9",
+    "express": "^4.17.1",
+    "guid": "^0.0.12",
+    "http": "*",
+    "md5": "^2.3.0",
+    "mongoose": "^5.12.10",
+    "sendgrid": "2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dblink": "mongodb+srv://silveira:hotline@cluster0.kcpqx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}
